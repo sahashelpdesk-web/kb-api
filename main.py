@@ -8,7 +8,7 @@ app = FastAPI()
 with open("kb.json", encoding="utf-8") as f:
     KB = json.load(f)
 
-GROQ_API_KEY = "YOUR_GROQ_API_KEY"
+GROQ_API_KEY = "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"
 
 # 🔍 SMART SEARCH
 def search_kb(query):
